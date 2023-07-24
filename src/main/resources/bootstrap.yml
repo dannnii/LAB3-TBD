@@ -1,0 +1,9 @@
+spring:
+    data:
+        mongodb:
+            database: GestionVoluntarios
+            host: cluster0.gkcqw4t.mongodb.net
+            password: mongodb
+            port: 27017
+            uri: mongodb+srv://mongodb:mongodb@cluster0.gkcqw4t.mongodb.net/?retryWrites=true&w=majority
+            username: mongodb
