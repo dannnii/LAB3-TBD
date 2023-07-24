@@ -25,7 +25,7 @@ public class VoluntariosRepositoryImpl implements VoluntariosRepository {
 
     @Override
     public List<Voluntarios> getVoluntarios() {
-        MongoCollection<Voluntarios> collection = database.getCollection("dog", Voluntarios.class);
+        MongoCollection<Voluntarios> collection = database.getCollection("voluntarios", Voluntarios.class);
         List <Voluntarios> voluntarios = collection.find().into(new ArrayList<>());
 
         return voluntarios;

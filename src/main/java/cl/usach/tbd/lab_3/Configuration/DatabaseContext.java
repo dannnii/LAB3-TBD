@@ -21,7 +21,7 @@ public class DatabaseContext {
         CodecRegistry pojoCodecRegistry = CodecRegistries.fromRegistries(defaultCodecRegistry, fromProvider);
 
         //Cliente de base de datos
-        MongoClient mongoClient =  MongoClients.create();
+        MongoClient mongoClient =  MongoClients.create("mongodb+srv://mongodb:mongodb@cluster0.gkcqw4t.mongodb.net/?retryWrites=true&w=majority");
         return mongoClient.getDatabase("GestionVoluntarios").withCodecRegistry(pojoCodecRegistry);
     }
 }
