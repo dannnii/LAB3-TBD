@@ -20,3 +20,5 @@ Previo a la ejecución o prueba de la aplicación enviar a jovanni.schneider@usa
   - Ejecutar la aplicación con el comando "java -jar target/lab_3-0.0.1-SNAPSHOT.jar"
 
 Utilizar la coleccion de Postman adjunta en el correo para probar la api
+
+Nota: No existe un script de poblado de datos, ya que la base de datos ya se encuentra poblada en la nube.
